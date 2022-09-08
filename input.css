@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* MENU BUTTON */
+.hamburger {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 28px;
+    width: 30px;
+}
+
+.hamburger .top,
+.hamburger .middle,
+.hamburger .bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+    width: inherit;
+    background: white;
+    border-radius: 4px;
+    transition: all 0.25s;
+}
+
+.hamburger .middle {
+    transform: translateY(9px);
+}
+
+.hamburger .bottom {
+    transform: translateY(18px);
+}
+
+.open {
+    position: fixed;
+    top: 38px;
+    left: 72%;
+    z-index: 50;
+}
+
+.open .top {
+    transform: rotate(45deg) translateY(7px) translateX(7px)
+}
+
+.open .middle {
+    display: none;
+}
+
+.open .bottom {
+    color: #13133a;
+    transform: rotate(-45deg) translateY(7px) translateX(-7px)
+}
+
+/* TRADE SECTION CLICK EFFECT */
+.bgColor {
+    --tw-bg-opacity: 1;
+    background-color: rgb(43 7 110/ var(--tw-bg-opacity));
+    color: white;
+}
