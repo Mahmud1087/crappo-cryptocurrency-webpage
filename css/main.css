@@ -1020,8 +1020,8 @@ video {
   padding-bottom: 4rem;
 }
 
-.pt-96 {
-  padding-top: 24rem;
+.pt-\[440px\] {
+  padding-top: 440px;
 }
 
 .pb-24 {
@@ -1038,14 +1038,6 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
-}
-
-.pt-\[420px\] {
-  padding-top: 420px;
-}
-
-.pt-\[440px\] {
-  padding-top: 440px;
 }
 
 .text-center {
@@ -1221,6 +1213,12 @@ video {
   outline-offset: 2px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* MENU BUTTON */
 
 .hamburger {
@@ -1306,10 +1304,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:pt-64 {
-    padding-top: 16rem;
-  }
-
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1320,10 +1314,6 @@ video {
   .lg\:px-52 {
     padding-left: 13rem;
     padding-right: 13rem;
-  }
-
-  .lg\:pt-64 {
-    padding-top: 16rem;
   }
 }
 
