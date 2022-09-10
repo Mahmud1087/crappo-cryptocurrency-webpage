@@ -42,7 +42,7 @@ html,body {
 .open {
     position: fixed;
     top: 38px;
-    left: 72%;
+    left: 82%;
     z-index: 50;
 }
 
